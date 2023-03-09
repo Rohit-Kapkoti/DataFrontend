@@ -25,7 +25,7 @@ const Read = () => {
   const [hods, setHods] = useState([])
 
   const publicRequest = axios.create({
-    baseURL: "http://localhost:8090",
+    baseURL: "https://collage-data-management-lglq.onrender.com",
   });
 
   useEffect(() => {

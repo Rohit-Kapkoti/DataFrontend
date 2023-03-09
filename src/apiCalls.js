@@ -51,7 +51,7 @@ import {
 } from "./teacherRedux";
 
 const publicRequest = axios.create({
-  baseURL: "http://localhost:8090",
+  baseURL: "https://collage-data-management-lglq.onrender.com",
 });
 
 // ADD STUDENT

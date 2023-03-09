@@ -78,7 +78,7 @@ const Create = () => {
 
   //  Getting all Departments
   useEffect(() => {
-    axios.get("http://localhost:8090/department/create").then((response) => {
+    axios.get("https://collage-data-management-lglq.onrender.com/department/create").then((response) => {
       setDepartment(response.data);
     });
   }, []);
@@ -112,7 +112,7 @@ const Create = () => {
 
   const addnewDepartment = async (e) => {
     try {
-      const res = await axios.post("http://localhost:8090/department/new", {
+      const res = await axios.post("https://collage-data-management-lglq.onrender.com/department/new", {
         name: newDepartment,
       });
     } catch (error) {
