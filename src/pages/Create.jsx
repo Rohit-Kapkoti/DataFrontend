@@ -134,6 +134,7 @@ const Create = () => {
           <FormInput
             onChange={(e) => setnewDepartment(e.target.value)}
             placeholder="department Name"
+            name="newDepartment"
           />
           <AddstudentButton onClick={addnewDepartment}>add</AddstudentButton>
         </Form>
