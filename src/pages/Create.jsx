@@ -120,9 +120,11 @@ const Create = () => {
     }
   };
   const submitAll = (e) => {
+
     addStudentdetails();
     addTeacherdetails();
     addHoddetails();
+    
   };
 
   return (
